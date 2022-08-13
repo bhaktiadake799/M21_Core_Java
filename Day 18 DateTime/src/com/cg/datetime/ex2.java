@@ -1,0 +1,14 @@
+package com.cg.datetime;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class ex2 {
+
+	public static void main(String[] args) {
+		String datetime="2022-07-30 22:17";
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+		LocalDateTime l = LocalDateTime.parse(datetime, dtf);
+		System.out.println(l);
+	}
+}
