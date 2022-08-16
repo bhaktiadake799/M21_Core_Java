@@ -1,6 +1,5 @@
 package bufferreader;
 import java.io.InputStreamReader;
-
 public class  bufferredaer {
 
 	public  bufferredaer(InputStreamReader inputStreamReader) {

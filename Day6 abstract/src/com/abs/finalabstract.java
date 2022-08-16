@@ -1,6 +1,6 @@
 package com.abs;
 //we cannot make any abstract class as final in java
-final abstract class Car{
+abstract class Car{
 	abstract void display();
 	
 }
